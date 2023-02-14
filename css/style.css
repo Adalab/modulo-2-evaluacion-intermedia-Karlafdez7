@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+:root {
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+}  
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: rgba(88, 83, 83);
+    margin: 2rem 2rem;
+    
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+} 
+
+.content_title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.css-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 40rempx;
+    font-size: 1.8rem;
+}
+
+.css-btn {
+    width: 15rem;
+    height: 4rem;
+    background-color: #33b1b7;
+    border: #33b1b7;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 2rem;
+}
+
+.slection {
+    width: 200px;
+    height: 3rem;
+    border-radius: 6px;
+    background-color: rgba(226, 225, 225);
+    border-color: rgba(226, 225, 225);
+    font-size: 16px;
+}
+
+.content_p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    width: 50rem;
+    border: solid 2px rgb(212, 212, 212);
+    padding: 1rem;
+}
